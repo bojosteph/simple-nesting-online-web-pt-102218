@@ -86,12 +86,12 @@ def adding_matz
         }
      }
 
-    matz = programmer_hash[:yukihiro_matsumoto] => {
+    matz = programmer_hash.unshift[:yukihiro_matsumoto] => {
       :known_for => "Ruby"
       :languages => ["LISP", "C"]
     }
-    programmer_hash.unshift(matz)
-  end
+    matz
+  
 end
 
 def changing_alan
