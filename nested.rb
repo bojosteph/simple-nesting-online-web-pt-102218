@@ -89,8 +89,6 @@ def adding_matz
     matz = programmer_hash.unshift[:yukihiro_matsumoto] => {
       :known_for => "Ruby"
       :languages => ["LISP", "C"]
-    }
-    matz
   
 end
 
